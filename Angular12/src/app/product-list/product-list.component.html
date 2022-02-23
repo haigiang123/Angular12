@@ -1,0 +1,7 @@
+<h2>Products</h2>
+
+<div *ngFor="let p of product">
+    <h2><a [title]="p.name + ' product'">{{p.name}}</a></h2>
+    <p *ngIf="p.description" >{{p.description}}</p>
+    <button (click)="GetPrice(p.price)">Price</button>
+</div>
