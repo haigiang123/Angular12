@@ -4,4 +4,5 @@
     <h2><a [title]="p.name + ' product'">{{p.name}}</a></h2>
     <p *ngIf="p.description" >{{p.description}}</p>
     <button (click)="GetPrice(p.price)">Price</button>
+    <app-product-alert [product]="p" (outEvent)="PractiveOutEvent($event)"></app-product-alert>
 </div>

@@ -14,4 +14,8 @@ export class ProductListComponent{
     GetPrice(price: number){
         window.alert(price);
     }
+
+    PractiveOutEvent(product: Product){
+        window.alert("This is outevent of product: " + product.name);
+    }
 }

@@ -1,0 +1,3 @@
+<div *ngIf="product.price > 600">
+    <button (click)="outEvent.emit(product);">{{product.price}}</button>
+</div>
