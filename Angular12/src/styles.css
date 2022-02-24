@@ -137,3 +137,6 @@
     background-color: #EEEEEE;
   }
   
+  .class1 :hover{
+    color: red;
+  }

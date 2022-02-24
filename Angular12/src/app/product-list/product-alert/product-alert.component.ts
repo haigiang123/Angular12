@@ -3,7 +3,7 @@ import { Product } from "src/app/product";
 
 @Component({
     selector: 'app-product-alert',
-    templateUrl: 'product-alert.component.html'
+    templateUrl: './product-alert.component.html'
 })
 
 export class ProductAlertComponent{
